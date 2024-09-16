@@ -10,6 +10,10 @@ Application to search for gifs and videos by name using the GIPHY API.
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 - ![Typescript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
+### API
+
+- GIPHY API Link => [https://developers.giphy.com/](https://developers.giphy.com/)
+
 ### Aditionals Commets
 
 - Project in progress.
