@@ -1,27 +1,39 @@
-# GifsApp
+# Gifs App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
+### Description
 
-## Development server
+Application to search for gifs and videos by name using the GIPHY API.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Technologies
 
-## Code scaffolding
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![Typescript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Aditionals Commets
 
-## Build
+- Project in progress.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Getting started
 
-## Running unit tests
+↓ Install [Angular CLI](https://github.com/angular/angular-cli)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```console
+npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+↓ Launch angular app. [http://localhost:4200](http://localhost:4200)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```console
+ng serve
+```
 
-## Further help
+**IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### App deploy
+
+[Gifs App in Vercel]()
+
+### Developer contact
+
+[LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)
