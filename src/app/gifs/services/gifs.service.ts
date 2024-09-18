@@ -13,7 +13,9 @@ export class GifsService {
   private serviceUrl: string = "https://api.giphy.com/v1/gifs"
   private apiKey: string = "GYMVrcfkmS39e01PZaG9oEMP87471FGv"
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    this.loadLocalStorage()
+  }
 
   get getItemHistory(): string[] {
     return [...this.itemHistory]
@@ -28,6 +30,19 @@ export class GifsService {
 
     this.itemHistory.unshift(item)
     this.itemHistory = this.getItemHistory.splice(0, 10)
+    this.saveLocalStorage()
+  }
+
+  private saveLocalStorage(): void {
+    localStorage.setItem("history", JSON.stringify(this.itemHistory))
+  }
+
+  private loadLocalStorage(): void {
+    if (!localStorage.getItem("history")) return
+    this.itemHistory = JSON.parse(localStorage.getItem("history")!)
+
+    if (this.itemHistory.length === 0) return
+    this.searchItem(this.itemHistory[0])
   }
 
   searchItem(item: string): void {
