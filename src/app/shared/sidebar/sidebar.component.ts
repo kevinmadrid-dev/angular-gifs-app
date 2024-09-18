@@ -13,4 +13,8 @@ export class SidebarComponent {
   get listItem(): string[] {
     return [...this.gifsService.getItemHistory]
   }
+
+  reSearch(item: string): void {
+    this.gifsService.searchItem(item)
+  }
 }

@@ -6,6 +6,7 @@
   <div class="list-group list-reset">
     <button
       *ngFor="let item of listItem"
+      (click)="reSearch(item)"
       class="list-group-item list-group-item-action"
     >
       {{ item | titlecase }}
