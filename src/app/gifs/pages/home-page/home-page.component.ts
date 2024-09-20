@@ -1,12 +1,11 @@
 import { Component } from "@angular/core"
 
 import { GifsService } from "../../services/gifs.service"
-import { Gif } from "../../components/interfaces/gifs.interfaces"
+import { Gif } from "../../interfaces/gifs.interfaces"
 
 @Component({
   selector: "gifs-home-page",
-  templateUrl: "./home-page.component.html",
-  styleUrl: "./home-page.component.css"
+  templateUrl: "./home-page.component.html"
 })
 export class HomePageComponent {
   constructor(private gifsService: GifsService) {}

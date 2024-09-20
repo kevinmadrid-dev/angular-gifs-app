@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core"
 import { HttpClient, HttpParams } from "@angular/common/http"
 
-import { Gif, SearchResponse } from "../components/interfaces/gifs.interfaces"
+import { Gif, SearchResponse } from "../interfaces/gifs.interfaces"
 
 @Injectable({
   providedIn: "root"
