@@ -16,7 +16,7 @@ Application to search for gifs and videos by name using the GIPHY API.
 
 ### Aditionals Commets
 
-- Project in progress.
+- Project completed.
 
 ### Getting started
 
